@@ -58,7 +58,7 @@ namespace MusicPlayer_ver2
             songListView.GridLines = false;
             songListView.FullRowSelect = true;
 
-            //add columns
+            // add columns
             songListView.Columns.Add("", 0);
             songListView.Columns.Add("Title", 205, HorizontalAlignment.Left);
             songListView.Columns.Add("Length", 50, HorizontalAlignment.Left);            
