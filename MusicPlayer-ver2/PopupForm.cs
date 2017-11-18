@@ -10,11 +10,23 @@ using System.Windows.Forms;
 
 namespace MusicPlayer_ver2
 {
-    public partial class Form1 : Form
+    public partial class PopupForm : Form
     {
-        public Form1()
+        public PopupForm()
         {
             InitializeComponent();
         }
+
+        private void okBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void cancelBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+       
     }
 }
